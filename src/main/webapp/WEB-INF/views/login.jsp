@@ -22,9 +22,12 @@
       <input type="password" name="password" form="login" required>
     </td>
   </tr>
-  <tr >
+  <tr>
     <td>
       <input type="submit" name="add" form="login">
+    </td>
+    <td>
+      <input type="button" onclick="location.href='/drivers/add';" value="Register" />
     </td>
   </tr>
 </table>
