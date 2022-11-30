@@ -1,9 +1,11 @@
-package taxi.service;
+package taxi.service.impl;
 
 import taxi.exception.AuthenticationException;
 import taxi.lib.Inject;
 import taxi.lib.Service;
 import taxi.model.Driver;
+import taxi.service.AuthenticationService;
+import taxi.service.DriverService;
 
 @Service
 public class AuthenticationServiceImpl implements AuthenticationService {
